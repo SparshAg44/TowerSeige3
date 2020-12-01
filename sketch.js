@@ -9,7 +9,7 @@ var  engine, world;
 var box1, box2, box3,box4,box5,box6,box7,box8,box9,box10,box11,box12,box13,box14,box15,box16,box17,box18,box19,box20, ground;
 var polygon, rope ,polygonImage,backgroundImg
 var score = 0;
-var bg = "images/light.jpg";
+var bg = "light.jpg";
 
 //var bg1,bg2
 
@@ -150,11 +150,11 @@ async function getBackgroundImg(){
   var hour = datetime.slice(11,13);
   
   if(hour>=06 && hour<=19){
-    bg = "images/light.jpg";
+    bg = "light.jpg";
       
   }
   else{
-      bg = "images/dark.jpg";
+      bg = "dark.jpg";
      
     
   }
